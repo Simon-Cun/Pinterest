@@ -4,7 +4,7 @@ import PinterestLogo from "@/public/pinterest-logo.svg";
 
 const NavBar = () => {
   return (
-    <div className="fixed flex w-full flex-wrap items-center justify-between space-x-2 bg-white p-5">
+    <div className="fixed z-40 flex w-full flex-wrap items-center justify-between space-x-2 bg-white p-5">
       <div className="flex space-x-9">
         <Image src={PinterestLogo} alt="Pinterest Logo" />
         <p className="pt-2">Explore</p>
