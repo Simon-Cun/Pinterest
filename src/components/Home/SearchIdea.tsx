@@ -1,10 +1,13 @@
+import { FaSearch } from "react-icons/fa";
+
 const SearchIdea = () => {
   return (
     <div className="flex h-screen bg-yellow-200">
       <div className="flex flex-1 flex-col items-center justify-center">
-        <div className="h-[12vh] w-[20vw] rounded-full bg-white">
+        <div className="h-[12vh] w-[22vw] rounded-full bg-white">
           <div></div>
           <p className="flex h-full items-center justify-center text-2xl font-semibold text-red-950">
+            <FaSearch className="mr-1"/>
             easy chicken dinner
           </p>
         </div>
